@@ -19,7 +19,9 @@ int main(void)  {
     // 두 정수 입력
     int A, B;
     int big, small;
-    int gcd, lcm;        // 최대공약수, 최소공배수
+    int gcd, lcm;    
+    int R;              // 최대공약수, 최소공배수
+                   
 
     printf(" 정수 A, B입력 : ");
     scanf("%d %d", &A, &B);
